@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: 1px solid black;
+            padding: 20px;
+            box-sizing: border-box;
+            height: 100vh;
+        }
+        .heading {
+            color: red;
+            font-weight: bold;
+            margin-bottom: 20px; /* Space between heading and circle */
+        }
+        .circle {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 1px solid black;
+            background-color: white;
+            margin-bottom: -1px; /* Ensures no space between the circle and the square */
+        }
+        .square {
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">Heading</div>
+        <div class="circle"></div>
+        <div class="square"></div>
+    </div>
+</body>
+</html>
