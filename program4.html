@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Card</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+        }
+        .card {
+            width: 300px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            text-align: center;
+        }
+        .card h1 {
+            font-family: 'Pacifico', cursive;
+            margin: 20px 0 10px;
+        }
+        .card .subtitle {
+            font-family: 'Roboto', sans-serif;
+            font-size: 12px;
+            color: gray;
+            margin: 0 0 20px;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+        .card h2 {
+            font-size: 20px;
+            color: #6bbd67;
+            margin: 10px 0;
+        }
+        .card p {
+            font-size: 14px;
+            color: gray;
+            margin: 5px 0;
+        }
+        .card .rating {
+            color: #ffd700;
+            margin: 10px 0 20px;
+        }
+        .rating .material-icons {
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Title</h1>
+        <div class="subtitle">Panda Card</div>
+        <img src="panda.jpg" alt="Panda Image">
+        <h2>John Doe</h2>
+        <p>Computer Science 1</p>
+        <p>Computer Science 2</p>
+        <p>Year: 3</p>
+        <div class="rating">
+            <span class="material-icons">star</span>
+            <span class="material-icons">star</span>
+            <span class="material-icons">star</span>
+            <span class="material-icons">star</span>
+            <span class="material-icons">star</span>
+        </div>
+    </div>
+</body>
+</html>
